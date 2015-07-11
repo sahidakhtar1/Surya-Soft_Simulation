@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HomeViewController.h
 //  Surya-SoftSimulation
 //
 //  Created by Shaikh Shahid Akhtar on 10/07/15.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface HomeViewController : UIViewController<UITextFieldDelegate>
 
-
+@property (weak, nonatomic) IBOutlet UITextField *tfEmailid;
 @end
-
